@@ -38,7 +38,7 @@ func merge(a []int, b []int) []int {
 
 func main() {
 	unsortedArr := rand.Perm(10)
-	fmt.Println("Unsorted random arr: ", unsortedArr)
+	fmt.Println("Your unsorted random arr: ", unsortedArr)
 	sorted := mergeSort(unsortedArr)
-	fmt.Println("Sorted array: ", sorted)
+	fmt.Println("Your sorted array: ", sorted)
 }
